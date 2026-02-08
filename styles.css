@@ -571,15 +571,17 @@ section {
 }
 
 .about-feature-title {
-  font-size: var(--text-lg);
+  font-size: var(--text-base);
   font-weight: 600;
   margin-bottom: var(--space-xs);
   font-family: var(--font-primary);
+  white-space: nowrap;
 }
 
 .about-feature-text {
   font-size: var(--text-sm);
   color: var(--color-text-medium);
+  line-height: 1.5;
 }
 
 /* ============================================
